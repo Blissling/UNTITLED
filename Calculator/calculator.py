@@ -14,4 +14,6 @@ with open("testmessages.txt", "r", encoding="utf8") as file:
 
 # for i in lines:       # line by line
 #     print(i)          # print the txt file
+
 # morse was here 2
+# and chris said hi
