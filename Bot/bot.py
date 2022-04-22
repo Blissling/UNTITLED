@@ -17,4 +17,13 @@ client = interactions.Client(token=TOKEN)
 async def on_ready():
     print(f'Client has connected to Discord!')
 
+# This is a pre-written command from IntoToPython for testing purposes only
+@client.command(
+    name="getstats",
+    description="Get your player stats",
+    scope=GUILD,
+)
+async def get_stats(ctx: interactions.CommandContext):
+    await ctx.send("Here are your player stats!")
+
 client.start()
